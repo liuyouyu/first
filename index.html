@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="initial-scale=1">
+	
+</head>
+<body>
+	<header>
+		<h1>header</h1>
+	</header>
+	<!-- <main></main> -->
+	<footer>
+		<h1>footer</h1>
+	</footer>
+	
+	<script>
+		var designWidth = 320;
+		var ratio = document.documentElement.clientWidth / designWidth;
+
+		var html = document.documentElement;
+		html.style.fontSize = ratio*100 + "px";
+
+	</script>
+</body>
+</html>

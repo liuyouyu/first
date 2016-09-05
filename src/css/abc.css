@@ -1,0 +1,32 @@
+
+html,body {
+    height:100%;
+    margin:0px;
+
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    background-image: url(../imgs/wx.jpg);
+}
+header,footer{
+    /*height:49px;*/
+    height: 0.49rem;
+    color:#fff;
+    background:#4390ee;
+}
+
+h1{
+    padding:0;
+    margin:0;
+    text-align:center;
+    font-size:0.32rem;
+    /*line-height:49px;*/
+    line-height: 0.49rem;
+}
+
+main{
+    flex:1;
+    background:#eee;
+}
